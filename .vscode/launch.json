@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "args": [
+        "--no-config",
+        "-r",
+        "ts-node/register",
+        "--timeout",
+        "999999",
+        "--colors",
+        "${workspaceFolder}/toolreprotask/tests/**/_suite.ts"
+      ],
+      "cwd": "${workspaceFolder}/toolreprotask",
+      "env": {
+        // "TASK_TEST_TRACE": "1"
+      },
+      "internalConsoleOptions": "openOnSessionStart",
+      "name": "Mocha Tests",
+      "program": "node_modules/mocha/bin/mocha",
+      "protocol": "inspector",
+      "request": "launch",
+      "type": "node"
+    }
+  ],
+  "version": "0.2.0"
+}

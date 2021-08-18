@@ -1,0 +1,5 @@
+{
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "typescript.tsdk": "./node_modules/typescript/lib"
+}

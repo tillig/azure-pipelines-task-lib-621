@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
+  "author": "Travis Illig",
+  "category": "Utility",
+  "description": "Demonstrates the mocking issue for getPlatform.",
+  "execution": {
+    "Node10": {
+      "target": "index.js"
+    }
+  },
+  "friendlyName": "Tool lib repro",
+  "helpMarkDown": "",
+  "id": "9a1a32a7-2e5d-4dca-ba01-0e29f5ea9276",
+  "inputs": [
+  ],
+  "instanceNameFormat": "Tool Lib Repro",
+  "name": "toolreprotask",
+  "version": {
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 1
+  }
+}

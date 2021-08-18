@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "group": "build",
+      "isBackground": true,
+      "presentation": {
+        "panel": "dedicated",
+        "reveal": "never"
+      },
+      "problemMatcher": [
+        "$tsc-watch"
+      ],
+      "script": "watch",
+      "type": "npm"
+    },
+    {
+      "group": {
+        "isDefault": true,
+        "kind": "build"
+      },
+      "isBackground": false,
+      "presentation": {
+        "panel": "dedicated",
+        "reveal": "never"
+      },
+      "problemMatcher": [
+        "$tsc"
+      ],
+      "script": "compile",
+      "type": "npm"
+    }
+  ],
+  "version": "2.0.0"
+}

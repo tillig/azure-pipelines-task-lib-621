@@ -1,0 +1,31 @@
+{
+  "author": "Travis Illig",
+  "dependencies": {
+    "azure-pipelines-task-lib": "^3.1.7",
+    "azure-pipelines-tool-lib": "^0.13.3"
+  },
+  "description": "The task reproducing the getPlatform mock in tests.",
+  "devDependencies": {
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.6.1",
+    "@types/q": "^1.5.5",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^9.0.3",
+    "sync-request": "^6.1.0",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5"
+  },
+  "license": "MIT",
+  "name": "task",
+  "scripts": {
+    "demo": "npm run compile && npm run test",
+    "compile": "npx tsc -b",
+    "lint": "npx eslint --ext .ts .",
+    "test": "npx mocha",
+    "watch": "npx tsc -b -w"
+  },
+  "version": "1.0.0"
+}

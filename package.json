@@ -1,0 +1,19 @@
+{
+  "author": "Travis Illig",
+  "description": "Reproduces the issue where getPlatform isn't mockable.",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "license": "MIT",
+  "name": "task-lib-repro",
+  "scripts": {
+    "compile": "cd toolreprotask && npx tsc -b && cd ..",
+    "demo": "cd toolreprotask && npm run compile && npm run test && cd ..",
+    "postinstall": "cd toolreprotask && npm install && cd ..",
+    "watch": "cd toolreprotask && npx tsc -b -w && cd .."
+  },
+  "version": "1.0.0"
+}
