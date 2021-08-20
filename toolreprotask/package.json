@@ -1,7 +1,7 @@
 {
   "author": "Travis Illig",
   "dependencies": {
-    "azure-pipelines-task-lib": "^3.1.7",
+    "azure-pipelines-task-lib": "^3.1.8",
     "azure-pipelines-tool-lib": "^0.13.3"
   },
   "description": "The task reproducing the getPlatform mock in tests.",
